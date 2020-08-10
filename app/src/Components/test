@@ -1,0 +1,22 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import Button from 'react-bootstrap/Button'
+
+import CanvasJSReact from '../Utils/canvasjs.react'
+
+
+const Chart = ({ id, item }) => {
+  const { points, title, story_title, num_comments, author, story_url: url, created_at_i } = item
+
+  return (
+    <div>
+			<CanvasJSChart options = {options}
+				/* onRef={ref => this.chart = ref} */
+			/>
+			{/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
+		</div>
+  )
+}
+
+export default NewsItem
