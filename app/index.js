@@ -58,5 +58,5 @@ app.get('*', function(req, res, next) {
 })
 app.listen(port, () => {
   console.log(`Listening on port: ${port}`)
-  open('http://localhost:4000');
+  open(`http://localhost:${port}`);
 })
