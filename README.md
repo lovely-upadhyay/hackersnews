@@ -1,14 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hacker News application
 
-## Available Scripts
+### Introduction
+This is a hacker news clone using React with Server Side Rendering with Redux and Saga using HN apis.
 
-In the project directory, you can run:
+## Dev Setup
 
-### `yarn install`
+* Install Node
+* Clone this repo using git clone: git@github.com/lovely-upadhyay/hackersnews.git
 
-### `yarn start`
+### Build and start the application
 
-Runs the app in the development mode.<br />
-Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
-
-### `yarn test`
+* yarn install
+* yarn start 
+* This should launch chrome browser @ port 4000 (http://localhost:4000)
